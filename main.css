@@ -1,8 +1,14 @@
+html {
+  display: flex;
+  justify-content: center;
+}
+
 body {
-    font-family: Georgia, serif;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    width: 720px;
     margin: 0;
 }
 
@@ -16,7 +22,8 @@ header {
     min-height: 6rem ;
     background-image: url("stars.jpg");
     background-size: 100%;
-    margin-bottom: 1rem
+    margin-bottom: 1rem;
+
 }
 
 .nav-button {
@@ -30,12 +37,12 @@ footer {
 }
 
 nav {
-    margin-left: 3rem;
+    margin-left: 2rem;
 }
 
 article {
-    margin-left: 3rem;
-    max-width: 60%;
+    padding-left: 2rem;
+    min-width: 100%;
 }
 
 footer {
@@ -43,8 +50,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 1rem;
-    padding-top: 0.5rem;
+    padding: 1rem 0.5rem 0.5rem 0.5rem;
     background-color: aliceblue;
 }
 
@@ -53,10 +59,20 @@ footer > p {
     margin: 8px 0;
 }
 
+.about-section {
+  display: flex;
+  margin-top: 1rem;
+}
+.avatar-pic {
+  width: 200px;  
+}
+.about-text {
+  margin-left: 2rem;
+}
 
 /* navigation bar, from https://codepen.io/havardob/pen/ExVaELV */
 
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"); */
 :root {
   --primary-color: #185ee0;
   --secondary-color: #e6eef9;
@@ -65,7 +81,7 @@ footer > p {
   box-sizing: border-box;
 }
 body {
-  font-family: "Inter", sans-serif;
+  /* font-family: "Inter", sans-serif; */
   /* background-color: rgba(230, 238, 249, 0.5); */
 }
 .container {
@@ -83,9 +99,10 @@ body {
   display: flex;
   position: relative;
   background-color: #fff;
-  box-shadow: 0 0 1px 0 rgba(24, 94, 224, 0.15), 0 6px 12px 0 rgba(24, 94, 224, 0.15);
+  /* box-shadow: 0 0 1px 0 rgba(24, 94, 224, 0.15), 0 6px 12px 0 rgba(24, 94, 224, 0.15); */
   padding: 0.3rem 0.6rem;
   border-radius: 99px;
+  /* border: 0px; */
 }
 .tabs * {
   z-index: 2;
