@@ -20,10 +20,10 @@ header {
     justify-content: center;
     align-items: center;
     min-height: 6rem ;
-    background-image: url("stars.jpg");
-    background-size: 100%;
+    /* background-image: url("stars.jpg");
+    background-size: 100%; */
     margin-bottom: 1rem;
-
+    border-bottom: 2px solid orange;
 }
 
 .nav-button {
@@ -41,7 +41,7 @@ nav {
 }
 
 article {
-    padding-left: 2rem;
+    padding: 2rem;
     min-width: 100%;
 }
 
@@ -57,11 +57,11 @@ footer {
 footer > p {
     font-size: x-small;
     margin: 8px 0;
+    text-align: center;
 }
 
 .about-section {
   display: flex;
-  margin-top: 1rem;
 }
 .avatar-pic {
   width: 200px;  
